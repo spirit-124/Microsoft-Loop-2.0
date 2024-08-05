@@ -45,6 +45,7 @@ const CreateWorkSpacePage = () => {
       emoji: null,
       createdBy: user?.primaryEmailAddress?.emailAddress,
       id: docId,
+      documentName: "Untittled Document",
       documentOutput: [],
     });
 
